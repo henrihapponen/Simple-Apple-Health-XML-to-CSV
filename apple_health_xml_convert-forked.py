@@ -122,7 +122,7 @@ def group_and_sum(df):
     return health_df_grouped
 
 
-# New function to transpose the shortened table to have the one row per day
+# New function to transpose the shortened table to have only one row per day with multiple columns
 def transpose(df):
     """Transposes the shortened table to have one row per day"""
 
@@ -149,6 +149,7 @@ def transpose(df):
     return health_df_transposed
 
 
+# Added version name, as we now save two different versions of the dataset
 def save_to_csv(df, version_name):
     print("Saving CSV file...", end="")
     today = dt.datetime.now().strftime('%Y-%m-%d')
