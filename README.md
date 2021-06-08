@@ -66,8 +66,8 @@ The first new output file is **apple_health_export_grouped_YYYY-MM-DD.csv** and 
 
 <img style="float: left;" src="img/example_output_2.jpg">
 
-The second new output file is **apple_health_export_transposed_YYYY-MM-DD.csv** and should look like this:
+The second one is **apple_health_export_transposed_YYYY-MM-DD.csv** and should look like this:
 
 <img style="float: left;" src="img/example_output_3.jpg">
 
-Reason behind this fork is that these output files might be more useful for analysis, especially if you want to combine the Apple data with other fitness/health data in a more 'standard' format.
+The reason behind this fork is that these output files might be more useful for analysis, especially if you want to combine the Apple data with other fitness/health data in a more 'standard' format.
